@@ -5,6 +5,10 @@ import people from './people.js'
 const App = () => {
 
   const columns = [
+    // {
+    //   Header: 'ID',
+    //   accessor: 'id'
+    // },
     {
       Header: 'First Name',
       accessor: 'first_name'
