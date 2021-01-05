@@ -11,19 +11,23 @@ const App = () => {
     // },
     {
       Header: 'First Name',
-      accessor: 'first_name'
+      accessor: 'first_name',
+      filterable: true
     },
     {
       Header: 'Last Name',
-      accessor: 'last_name'
+      accessor: 'last_name',
+      filterable: true
     },
     {
       Header: 'Email',
-      accessor: 'email'
+      accessor: 'email',
+      filterable: true
     },
     {
       Header: 'Title',
-      accessor: 'title'
+      accessor: 'title',
+      filterable: true
     },
   ]
 
